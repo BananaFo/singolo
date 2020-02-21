@@ -1,1 +1,145 @@
+body {
+	margin: 0;
+	font-family: 'lato', sans-serif;
+}
+.header {
+	padding: 30px 0 29px;
+	background-color: #2d303a;
+    border-bottom: solid 6px #323746;
+}
 
+.wrapper {
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
+.logo {
+	font-size: 25px;
+	color: #ffffff;
+	margin: 0;
+}
+
+.snowflake {
+	color: #f06c64;
+}
+
+.header__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.navigation__bar {
+	margin: 0;
+	display: flex;
+	padding-right: 14px;
+	list-style-type: none;
+}
+
+.header__links {	
+	color: #ffffff;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.header__links:after {
+ 	color: #494e62;
+ 	content: "·";
+ 	padding: 0 14px;
+ }
+
+ .last_link:after {
+	color: #2d303a;
+}
+
+.header__links:hover {
+	color: #f06c64;
+}
+.phone-field {
+	background-color: #f06c64;
+	border-bottom: 5px solid #ea676b;
+}
+
+.hover__left {
+	display: flex;
+	align-content: center;
+}
+
+.hover_left:hover {
+		background-image: url(./img/slider/left_slider_black.png)
+}
+
+.hover_right:hover {
+		background-image: url(./img/slider/right_slider_black.png)
+}
+
+.horizontal_phone {
+	transform: rotate(90deg);
+}
+
+.phone-field__image {
+	display: inline;
+}
+.phone-field__slider {
+
+}
+
+.layout__content {
+	list-style-type: none;
+	display: flex;
+	text-align: justify;
+}
+
+.our-services {
+	background-color: #f2f2f2;
+	border-bottom: 5px solid #ffffff;
+}
+
+.our-services__banner {
+	font-weight: 900;
+	font-size: 30px;
+	color: #666d89;
+	margin: 0;
+	padding: 67px 0 32px 18px;
+}
+
+.our-services__text {
+	color: #767e9e;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0.50px;
+	margin: 0 0 55px;
+}
+
+.our-services__layout {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.layout__content {
+	display: flex;
+	flex-wrap: wrap;
+	width: 33%;
+	margin-left: 20px;
+}
+
+.layout__icon {
+	padding-right: 20px;
+	position: absolute;
+}
+
+.layout__banner {
+	color: #666d89;
+	font-size: 18px;
+	margin: 0 0 8px 81px;
+}
+
+.layout_text {
+	font-size: 12px;
+	line-height: 22px;
+	margin: 0 0 0 81px;
+	text-align: justify;
+}
