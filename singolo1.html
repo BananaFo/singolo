@@ -5,41 +5,50 @@
 	<meta name="singolo1" content="services">
 	<title>Singolo</title>
 	<link rel="stylesheet" type="text/css" href="singolo1.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header class="header">
 		<div class="wrapper">
-			<section class="header__content">
-				<h1 class="logo">SINGOLO<span class="snowflake">*</span></h1>
-				<nav class="navigation">
-					<ul class="navigation__bar">
-						<li><a href="#" class="header__links">HOME</a></li>
-						<li><a href="#" class="header__links">SERVICES</a></li>
-						<li><a href="#" class="header__links">PORTFOLIO</a></li>
-						<li><a href="#" class="header__links">ABOUT</a></li>
-						<li><a href="#" class="header__links last_link">CONTACT</a></li>
-					</ul>
-				</nav>
-			</section>			
+			<div class="header__content"> 
+			<h2 class="logo">SINGOLO<span class="snowflake">*</span></h2>
+			<nav class="navigation">
+				<ul class="navigation__bar">
+					<li class="link"><a href="#" class="header__links">HOME</a></li>
+					<li class="link"><a href="#" class="header__links">SERVICES</a></li>
+					<li class="link"><a href="#" class="header__links">PORTFOLIO</a></li>
+					<li class="link"><a href="#" class="header__links">ABOUT</a></li>
+					<li class="link"><a href="#" class="header__links last_link">CONTACT</a></li>
+				</ul>
+			</nav>
+			</div>
 		</div>
 	</header>
 	<section class="phone-field">
 		<div class="wrapper">
-			<div>
-				<img src="./img/slider/left_slider.png" class="phone-field__slider hover_left">
+			<div class="graphics">
+				<div class="left__slider">
+					<img src="./img/slider/left_slider_black.png" class="phone-field__slider after-hover_slider hover_left">
+					<img src="./img/slider/left_slider.png" class="phone-field__slider before-hover_slider hover_left">
+				</div>
+				<div class="vertical__phone">
+					<img src="./img/iphone/iPhone_vertical.png" alt="iPhone Vertical" class="vertical">
+				</div>
+				<div class="horizontal__phone">
+					<img src="./img/iphone/iPhone_horizontal.png" alt="iPhone Horizontal" class="horizontal">
+				</div>
+				<div class="right__slider">
+					<img src="./img/slider/right_slider_black.png" 	class="phone-field__slider after-hover_slider hover_left">
+					<img src="./img/slider/right_slider.png" class="phone-field__slider before-hover_slider hover_right">
+				</div>
 			</div>
-			<img src="./img/iphone/iPhone.png" alt="iPhone Vertical" class="vertical_phone">
-			<img src="./img/iphone/iPhone.png" alt="iPhone Horizontal" class="horizontal_phone">
-			<img src="./img/slider/right_slider.png" class="phone-field__slider hover_right">
 		</div>
 	</section>
-<section class="our-services">
+	<section class="our-services">
 		<div class="wrapper">
 			<h2 class="our-services__banner">Our Services</h2>
 			<p class="our-services__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 			<div class="our-services__layout">
-				<div class="layout__content">
+				<div class="layout__content first_column">
 					<div class=layout__icon>
 						<img src="./img/svg/pen.svg" alt="pen" class="icon">
 					</div>
@@ -62,7 +71,7 @@
 				</div>
 			</div>
 			<div class="our-services__layout">
-				<div class="layout__content">
+				<div class="layout__content first_column">
 					<div class=layout__icon>
 						<img src="./img/svg/phone.svg" alt="phone" class="icon">
 					</div>
