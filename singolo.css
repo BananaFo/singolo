@@ -1,12 +1,12 @@
-@font-family {
-	font-family: 'Lato-Thin', sans-serif;
+@font-face {
+	font-family: 'Lato-Light', sans-serif;
 	src: url(".assets/OFL.txt");
-	src: url(".assets/Lato-Thin.ttf");
+	src: url(".assets/Lato-Light.ttf");
 }
 
 body {
 	margin: 0;
-	font-family: 'Lato-Thin', sans-serif;
+	font-family: 'Lato-Light', sans-serif;
 	font-size: 10px;
 }
 
@@ -175,7 +175,7 @@ body {
 	font-size: 3em;
 	color: #666d89;
 	margin: 0;
-	padding: 62px 0 19px 0;
+	padding: 61px 0 19px 0;
 	font-weight: bold;
 	letter-spacing: -1px;
 }
@@ -193,7 +193,7 @@ body {
 .our-services__layout {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 32px;
+	margin-bottom: 33px;
 }
 
 .layout__content {
@@ -205,6 +205,10 @@ body {
 
 .first_column {
 	margin: 0;
+}
+
+.icon {
+	width: 60px;
 }
 
 .layout__icon {
@@ -286,7 +290,7 @@ body {
     overflow: hidden;
 }
 
-.portfolio__art:nth-child(n+13) {
+.portfolio__image:nth-child(n+13) {
     display: none;
 }
 
@@ -325,6 +329,7 @@ body {
 	width: 33%;
 	width: 300px;
 	margin: 0;
+	overflow: hidden;
 }
 
 .central_column {
@@ -344,6 +349,7 @@ body {
 	letter-spacing: -.9px;
 	margin: 0;
 	padding-top: 17px;
+	white-space: nowrap;
 }
 
 .employee__text {
@@ -357,7 +363,7 @@ body {
 
 .social {
 	display: flex;
-	padding-top: 23px;
+	padding-top: 24px;
 }
 
 .facebook {
@@ -507,7 +513,7 @@ body {
 	color: #f0d8d9;
 	margin: 0;
 	font-weight: bold;
-	padding-bottom: 7px;
+	padding-bottom: 8px;
 }
 
 .form__contacts{
@@ -575,7 +581,7 @@ body {
 
 .social {
 	display: flex;
-	padding-top: 23px;
+	padding-top: 24px;
 }
 
 .facebook {
