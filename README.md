@@ -1,1 +1,1 @@
-[Look at Singolo](https://bananafo.github.io/singolo/index.html)
+[Look at Singolo](https://bananafo.github.io/singolo/singolo.html)
